@@ -4,7 +4,7 @@
 # ~~~~
 
 # An example controller showing a sample home page
-POST    /comments                   controllers.HomeController.postComment(filterStrategy: Option[String])
+POST    /comments                   controllers.FilterController.postComment(filterStrategy: Option[String])
 
 GET     /                           controllers.HomeController.index
 
